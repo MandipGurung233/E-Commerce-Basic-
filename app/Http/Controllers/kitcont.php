@@ -20,7 +20,7 @@ class kitcont extends Controller
         
         if(!$user || !Hash::check($request->password,$user->password))
         {
-            return "Username or password is not matched";
+            return " Either Username or password is not matched";
         }
         else{
             $request->session()->put('user',$user);
