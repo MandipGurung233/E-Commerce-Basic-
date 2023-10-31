@@ -3,7 +3,7 @@
 <div class="custom-product">
     <div class="col-sm-10">
       <div class="trending-wrapper">
-        <h2>Mero Order</h2>
+        <h2>My Order details</h2>
     
         @foreach ($orders as $item)
         <div class="row searched-item cart-list-divider">
