@@ -32,6 +32,14 @@ class ProductSeeder extends Seeder
             'gallery'=>'https://www.imnepal.com/wp-content/uploads/2017/09/Top-Bottom-Sets-T-Shirts-and-Capris-Set-baby-boy-dress.jpg',
             
         ],
+                                       [
+            'name' => 'T-shirt',
+            'price' => '2000',
+            'category' => 'Small',
+            'description' => 'Summer Fashio, makes you look cool',
+            'gallery'=>'https://www.imnepal.com/wp-content/uploads/2017/09/Top-Bottom-Sets-T-Shirts-and-Capris-Set-baby-boy-dress.jpg',
+            
+        ],
         [
             'name' => 'Lehanga',
             'price' => '20000',
