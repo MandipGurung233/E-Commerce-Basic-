@@ -12,17 +12,16 @@ use App\Http\Controllers\KitchenProduct;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
+| This is suitable for interacting with the blade file  
 */
 
 Route::get('/login', function () {
     return view('login');
 });
-
 Route::get('/logout', function () {
     Session::forget('user');
     return redirect ('login');
 });
-
 Route::view('/register','register');
 Route::post('/login',[kitcont::class,'login']);
 Route::post('/register',[kitcont::class,'register']);
